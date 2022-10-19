@@ -4,8 +4,8 @@
 	* edit some data and then save the file
 
 ```bash
-nano file1.txt
-ls
+$ nano file1.txt
+$ ls
 file1.txt
 ```
 
@@ -14,17 +14,17 @@ This a new file
 ```
 
 2. Now we will copy data from file1 to a new file2
-	* **cp file1.txt file2.txt**
-	* Then see the output of file2.txt, **cat file2.txt**
+	* ``cp file1.txt file2.txt``
+	* Then see the output of file2.txt, ``cat file2.txt``
 
 ```bash
-cp file1.txt file2.txt
-cat file2.txt
+$ cp file1.txt file2.txt
+$ cat file2.txt
 This is a new file
 ```
 
-3. Now we will move the file2.txt to a new folder **/home**
-	* **mv file2.txt /home**
+3. Now we will move the file2.txt to a new folder ``/home``
+	* ``mv file2.txt /home``
 	* Then go to **home** directory and check **ls**, does the file exist or not?
 
 ```bash
@@ -40,6 +40,13 @@ file2.txt
 4. Create a new **file3.txt and file4.txt** in **home directory** and add content in it.
 	* Now do ``echo "Hello I am a new line">file3.txt`` and provide the output of file3.txt
 
+``bash
+$ sudo touch file3.txt file4.txt
+$ sudo nano file3.txt
+``
+``nano
+This is the first line
+``
 ```bash
 $ sudo echo "Hello I am a new line" > file3.txt
 bash: file3.txt: Permission denied
