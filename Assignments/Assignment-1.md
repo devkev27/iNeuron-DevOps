@@ -8,7 +8,7 @@ su: user john does not exist
 ```
 The terminal lets you know that user does not exist. You can only login with a user account that has been created.
 
-2. ##### Password changing
+2. #### Password changing
 	* login into your account and then change the password
 		- change your password into ``IneuR0n#42`` and hit enter
 		- Try changing the password again to ``1234``
