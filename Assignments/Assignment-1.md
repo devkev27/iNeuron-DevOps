@@ -1,6 +1,6 @@
 ### Basic Linux Commands Assignment
 
-1. Connect and disconnect with login access
+1. #### Connect and disconnect with login access
 	* What happens when you login a non-existent user
 ```bash
 $ su john
@@ -23,7 +23,7 @@ The password 1234 will not be accepted as the characters are not long enough
 ``BAD PASSWORD: No password supplied
 The terminal lets you know that you did not enter any password
 
-3. Working with Directories
+3. #### Working with Directories
 	* Enter the command ``cd / ``and then enter ``ls``
 		* Explain the output
 	* Now enter the command ``cd /home``
@@ -75,7 +75,7 @@ anaconda-ks.cfg initial-setup-ks.cfg
 
 Root access is required to access the root directory, so I entered sudo su first. ls shows the kickstarter files in the home directory of the root users
 
-4. Working with File Listing
+4. #### Working with File Listing
 	* Go to ``cd /etc`` and enter ``ls``
 		* Explain the difference in output compared to the previous command
 	* Enter ``ls -al``
@@ -138,7 +138,7 @@ $ ls -i
 
 ``ls --help`` gives us a list information about all the other ways ls can be used which we can play around with
 
-5. Know where you are and where you are working
+5. #### Know where you are and where you are working
 Here we use **pwd, cd** and **ls** to understand where you are working on the terminal how you can switch from one directory to another one.
 
 * Open terminal after restarting Linux
