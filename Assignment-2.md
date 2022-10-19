@@ -40,13 +40,13 @@ file2.txt
 4. Create a new **file3.txt and file4.txt** in **home directory** and add content in it.
 	* Now do ``echo "Hello I am a new line">file3.txt`` and provide the output of file3.txt
 
-``bash
+```bash
 $ sudo touch file3.txt file4.txt
 $ sudo nano file3.txt
-``
-``nano
+```
+```nano
 This is the first line
-``
+```
 ```bash
 $ sudo echo "Hello I am a new line" > file3.txt
 bash: file3.txt: Permission denied
