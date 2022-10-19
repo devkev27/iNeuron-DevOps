@@ -98,7 +98,7 @@ bashrc					newsyslog.d				shells
 bashrc_Apple_Terminal	                nfs.conf				snmp
 com.apple.launchd		        notify.conf				ssh
 csh.cshrc				ntp.conf				ssl
-csh.login				ntp_opendirectory.conf	sudo_lecture
+csh.login				ntp_opendirectory.conf	                sudo_lecture
 csh.logout				openldap				sudoers
 cups					pam.d					sudoers.d
 defaults				passwd					symantec
