@@ -84,7 +84,7 @@ This is the first line
 Hello I am a new line
 ```
 
-The difference between using > ( ``tee``) and using >> (``tee -a``) 
+The difference between using >  (``tee``) and using >> (``tee -a``) 
 - With ``>`` you overwrite data of an existing file or create a new file when it isn't already there in the directory. Whereas with
 - With ``>>`` you append to existing data already on the file or you create a new file if that file does not already exist in the directory
 - These operators are often used together when modifying files in Linux
