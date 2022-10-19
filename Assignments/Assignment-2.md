@@ -14,8 +14,8 @@ This a new file
 ```
 
 2. Now we will copy data from file1 to a new file2
-	* **cp file1.txt file2.txt**
-	* Then see the output of file2.txt, **cat file2.txt**
+	* ``cp file1.txt file2.txt``
+	* Then see the output of file2.txt, ``cat file2.txt``
 
 ```bash
 cp file1.txt file2.txt
@@ -23,8 +23,8 @@ cat file2.txt
 This is a new file
 ```
 
-3. Now we will move the file2.txt to a new folder **/home**
-	* **mv file2.txt /home**
+3. Now we will move the file2.txt to a new folder ``/home``
+	* ``mv file2.txt /home``
 	* Then go to **home** directory and check **ls**, does the file exist or not?
 
 ```bash
