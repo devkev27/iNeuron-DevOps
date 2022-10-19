@@ -85,18 +85,18 @@ Root access is required to access the root directory, so I entered sudo su first
 ```bash
 $ cd /etc
 $ ls
-afpovertcp.cfg			localtime			racoon
+afpovertcp.cfg			        localtime			        racoon
 aliases					locate.rc				rc.common
 aliases.db				mail.rc					rc.netboot
 apache2					man.conf				resolv.conf
-asl					    manpaths				rmtab
+asl					manpaths				rmtab
 asl.conf				manpaths.d				rpc
-auto_home				master.passwd			rtadvd.conf
+auto_home				master.passwd			        rtadvd.conf
 auto_master				networks				security
-autofs.conf				newsyslog.conf			services
+autofs.conf				newsyslog.conf			        services
 bashrc					newsyslog.d				shells
-bashrc_Apple_Terminal	nfs.conf				snmp
-com.apple.launchd		notify.conf				ssh
+bashrc_Apple_Terminal	                nfs.conf				snmp
+com.apple.launchd		        notify.conf				ssh
 csh.cshrc				ntp.conf				ssl
 csh.login				ntp_opendirectory.conf	sudo_lecture
 csh.logout				openldap				sudoers
@@ -109,8 +109,8 @@ gettytab				pf.anchors				wfs
 group					pf.conf					xtab
 hosts					pf.os					zprofile
 hosts.equiv				postfix					zshrc
-irbrc					ppp					    zshrc_Apple_Terminal
-kern_loader.conf		profile
+irbrc					ppp					zshrc_Apple_Terminal
+kern_loader.conf		        profile
 krb5.keytab				protocols
 ```
 
